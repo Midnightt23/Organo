@@ -1,0 +1,21 @@
+@import url("styles/header.css");
+@import url("styles/open.css");
+@import url("styles/carrossel.css");
+
+:root {
+    --cor-de-fundo: rgb(230, 213, 213);
+    --cor-primaria :rgb(255, 255, 255);
+    --cor-secundaria: blue;
+    --cor-terceira: black;
+    --cor-quarta: red;
+    --font-principal: Kalam;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
